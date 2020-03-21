@@ -1,0 +1,49 @@
+/*x - Responsive css
+******************/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/*****************
+*****************/
+fieldset{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  width:100%;
+  border:none;
+}
+
+fieldset input {
+  width:100%;
+  border: none;
+  border-bottom:  1px solid #000;
+  background-color: rgb(249, 249, 249);
+  padding:0.5em 1em;
+  font-size: 1em;
+}
+
+fieldset input:focus{
+  outline: none;
+  border-bottom-color: seagreen;
+}
+
+
+fieldset button {
+    background-color: rgb(40, 122, 230);
+    color: whitesmoke;
+    font-size:1em;
+    padding:1em 1em;
+    width:100%;
+    margin-bottom: 0.25em;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    border-radius: 100px;
+}
+.error{
+    color:#c70000;
+    font-size: 0.8em;
+}
